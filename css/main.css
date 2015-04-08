@@ -1,4 +1,6 @@
-
+* {
+	outline: red 1px solid;
+}
 body {
 	background-color: black;
 }
@@ -19,7 +21,7 @@ body {
 	width: 659px;
 	height: 494px;
 }
-.ryu-ready, .ryu-thowing {
+.ryu-ready, .ryu-throwing {
 	display: none;
 }
 .ryu-ready {
@@ -33,4 +35,16 @@ body {
 }
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
 	background-repeat: no-repeat;
+}
+.hadouken {
+	background-image: url("../images/hadouken.gif");
+	width: 156px;
+	height: 90px;
+	display: none;
+	float: left;
+	position: absolute;
+	z-index: 10;
+	top: 175px;
+  	left: 620px;
+  	float: left;
 }
